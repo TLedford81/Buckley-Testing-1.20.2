@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "buckleytesting:horserite_block"
+    }
+  ],
+  "result": {
+    "item": "buckleytesting:horserite",
+    "count": 9
+  }
+}

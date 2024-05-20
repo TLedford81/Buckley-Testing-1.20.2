@@ -1,8 +1,10 @@
 package net.kitnox.buckleytesting;
 
 import com.mojang.logging.LogUtils;
+import net.kitnox.buckleytesting.block.ModBlocks;
 import net.kitnox.buckleytesting.entity.MobEntities;
 import net.kitnox.buckleytesting.entity.client.BigBerthaRenderer;
+import net.kitnox.buckleytesting.item.ModCreativeModeTabs;
 import net.kitnox.buckleytesting.item.ModItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,7 +33,9 @@ public class BuckleyTestingMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         MobEntities.register(modEventBus);
 
         // Register the commonSetup method for modloading
@@ -56,7 +60,15 @@ public class BuckleyTestingMod
         {
             event.accept(ModItems.HORSERITE);
             event.accept(ModItems.RAW_HORSERITE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.SPAWN_EGGS)
+        {
             event.accept(ModItems.BIG_BERTHA_SPAWN_EGG);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+        {
+            event.accept(ModBlocks.HORSERITE_BLOCK);
+            event.accept(ModBlocks.RAW_HORSERITE_BLOCK);
         }
     }
 

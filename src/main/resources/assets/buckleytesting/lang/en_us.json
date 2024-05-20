@@ -1,5 +1,10 @@
 {
   "item.buckleytesting.horserite": "Horserite",
   "item.buckleytesting.raw_horserite": "Raw Horserite",
-  "item.buckleytesting.big_bertha_spawn_egg": "Big Bertha Spawn Egg"
+  "item.buckleytesting.big_bertha_spawn_egg": "Big Bertha Spawn Egg",
+
+  "block.buckleytesting.horserite_block": "Block of Horserite",
+  "block.buckleytesting.raw_horserite_block": "Block of Raw Horserite",
+
+  "creativetab.main_tab": "Buckley Testing"
 }

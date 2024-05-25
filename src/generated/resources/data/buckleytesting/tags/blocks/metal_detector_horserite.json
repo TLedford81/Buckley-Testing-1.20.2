@@ -1,0 +1,12 @@
+{
+  "values": [
+    "buckleytesting:raw_horserite_block",
+    "buckleytesting:horserite_block",
+    "buckleytesting:horserite_stairs",
+    "buckleytesting:horserite_slab",
+    "buckleytesting:horserite_fence",
+    "buckleytesting:horserite_fence_gate",
+    "buckleytesting:horserite_wall",
+    "buckleytesting:sound_block"
+  ]
+}

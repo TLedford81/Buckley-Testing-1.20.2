@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "buckleytesting:item/ketamine_sword"
+  }
+}

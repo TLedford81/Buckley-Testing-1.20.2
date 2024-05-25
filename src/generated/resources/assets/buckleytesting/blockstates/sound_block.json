@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "buckleytesting:block/sound_block"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "buckleytesting:block/horserite_slab"
+    },
+    "type=double": {
+      "model": "buckleytesting:block/horserite_block"
+    },
+    "type=top": {
+      "model": "buckleytesting:block/horserite_slab_top"
+    }
+  }
+}

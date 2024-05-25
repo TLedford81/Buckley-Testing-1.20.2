@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "buckleytesting:horserite"
+    },
+    {
+      "item": "buckleytesting:horserite"
+    },
+    {
+      "item": "buckleytesting:horserite"
+    },
+    {
+      "item": "buckleytesting:horserite"
+    },
+    {
+      "item": "buckleytesting:horserite"
+    },
+    {
+      "item": "buckleytesting:horserite"
+    },
+    {
+      "item": "buckleytesting:horserite"
+    },
+    {
+      "item": "buckleytesting:horserite"
+    },
+    {
+      "item": "buckleytesting:horserite"
+    }
+  ],
+  "result": {
+    "item": "buckleytesting:horserite_block"
+  }
+}

@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.kitnox.buckleytesting.block.ModBlocks;
 import net.kitnox.buckleytesting.entity.MobEntities;
 import net.kitnox.buckleytesting.entity.client.BigBerthaRenderer;
+import net.kitnox.buckleytesting.entity.client.PillagerKingRenderer;
 import net.kitnox.buckleytesting.item.ModCreativeModeTabs;
 import net.kitnox.buckleytesting.item.ModItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -87,6 +88,7 @@ public class BuckleyTestingMod
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             EntityRenderers.register(MobEntities.BIGBERTHA.get(), BigBerthaRenderer::new);
+            EntityRenderers.register(MobEntities.PILLAGERKING.get(), PillagerKingRenderer::new);
         }
     }
 }

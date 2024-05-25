@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "buckleytesting:block/hay_rack_black",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "buckleytesting:block/hay_rack_black"
+    },
+    "facing=south": {
+      "model": "buckleytesting:block/hay_rack_black",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "buckleytesting:block/hay_rack_black",
+      "y": 270
+    }
+  }
+}

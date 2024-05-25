@@ -1,10 +1,41 @@
 {
   "item.buckleytesting.horserite": "Horserite",
   "item.buckleytesting.raw_horserite": "Raw Horserite",
+  "item.buckleytesting.metal_detector": "Horserite Detector",
+  "item.buckleytesting.laced_carrot": "Laced Carrot",
+  "item.buckleytesting.horse_hair": "Horse Hair",
   "item.buckleytesting.big_bertha_spawn_egg": "Big Bertha Spawn Egg",
+  "item.buckleytesting.pillager_king_spawn_egg": "Pillager King Spawn Egg",
+  "item.buckleytesting.horserite_helmet": "Horserite Helmet",
+  "item.buckleytesting.horserite_chestplate": "Horserite Chestplate",
+  "item.buckleytesting.horserite_leggings": "Horserite Leggings",
+  "item.buckleytesting.horserite_boots": "Horserite Booties",
+  "item.buckleytesting.ketamine_sword": "Ketamine Infused Sword",
+  "item.buckleytesting.horserite_sword": "Horserite Sword",
+  "item.buckleytesting.horserite_pickaxe": "Horserite Pickaxe",
+  "item.buckleytesting.horserite_axe": "Horserite Axe",
+  "item.buckleytesting.horserite_shovel": "Horserite Shovel",
+  "item.buckleytesting.horserite_hoe": "Horserite Hoe",
+  "item.buckleytesting.horserite_paxel": "Horserite Paxel",
+  "item.buckleytesting.horserite_hammer": "Horserite Hammer",
 
+  "block.buckleytesting.horse_crepe": "Horse Crepe Layer",
   "block.buckleytesting.horserite_block": "Block of Horserite",
   "block.buckleytesting.raw_horserite_block": "Block of Raw Horserite",
+  "block.buckleytesting.horserite_stairs": "Horserite Stairs",
+  "block.buckleytesting.horserite_slab": "Horserite Slab",
+  "block.buckleytesting.horserite_button": "Horserite Button",
+  "block.buckleytesting.horserite_pressure_plate": "Horserite Pressure Plate",
+  "block.buckleytesting.horserite_wall": "Horserite Wall",
+  "block.buckleytesting.horserite_fence": "Horserite Fence",
+  "block.buckleytesting.horserite_fence_gate": "Horserite Fence Gate",
+  "block.buckleytesting.sound_block": "Sound Block",
+  "block.buckleytesting.hay_rack_black": "Black Hay Rack",
 
-  "creativetab.main_tab": "Buckley Testing"
+  "creativetab.main_tab": "Buckley Testing",
+  "item.buckleytesting.metal_detector.no_valuables": "No Horserite Found!",
+
+  "tooltip.buckleytesting.metal_detector.tooltip.shift": "§eRight Click§r on Blocks to see if there is Horserite Underneath.",
+  "tooltip.buckleytesting.metal_detector.tooltip": "Hold §eShift§r to see Information.",
+  "tooltip.buckleytesting.sound_block": "H O R S E"
 }

@@ -3,6 +3,7 @@ package net.kitnox.buckleytesting.item;
 import net.kitnox.buckleytesting.BuckleyTestingMod;
 import net.kitnox.buckleytesting.entity.MobEntities;
 import net.kitnox.buckleytesting.item.custom.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -46,16 +47,19 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> HORSERITE_HELMET = ITEMS.register("horserite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.HORSERITE, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.HORSERITE, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static final RegistryObject<Item> HORSERITE_CHESTPLATE = ITEMS.register("horserite_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.HORSERITE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.HORSERITE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 
     public static final RegistryObject<Item> HORSERITE_LEGGINGS = ITEMS.register("horserite_leggings",
-            () -> new ArmorItem(ModArmorMaterials.HORSERITE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.HORSERITE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
 
     public static final RegistryObject<Item> HORSERITE_BOOTS = ITEMS.register("horserite_boots",
-            () -> new ArmorItem(ModArmorMaterials.HORSERITE, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.HORSERITE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> HORSERITE_HORSE_ARMOR = ITEMS.register("horserite_horse_armor",
+            () -> new HorseArmorItem(14, new ResourceLocation(BuckleyTestingMod.MODID, "textures/entity/horse/armor/horse_armor_horserite.png"), new Item.Properties()));
 
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",

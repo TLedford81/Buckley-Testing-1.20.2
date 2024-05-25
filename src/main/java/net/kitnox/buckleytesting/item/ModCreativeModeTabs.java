@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.BIG_BERTHA_SPAWN_EGG.get());
                         pOutput.accept(ModItems.PILLAGER_KING_SPAWN_EGG.get());
+                        pOutput.accept(ModItems.HORSERITE_HORSE_ARMOR.get());
                         pOutput.accept(ModItems.LACED_CARROT.get());
                         pOutput.accept(ModItems.HORSE_HAIR.get());
                         pOutput.accept(ModItems.HORSERITE.get());

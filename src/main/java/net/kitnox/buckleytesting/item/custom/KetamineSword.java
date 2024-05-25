@@ -17,9 +17,9 @@ public class KetamineSword extends SwordItem {
     @Override
     public boolean onLeftClickEntity(ItemStack stack, Player player, Entity entity) {
         if(entity instanceof LivingEntity livingEntity) {
-            livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 400), player);
+            livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 400, 4), player);
             livingEntity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 400), player);
-            livingEntity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 400), player);
+            livingEntity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 400, 4), player);
         }
 
         return super.onLeftClickEntity(stack, player, entity);

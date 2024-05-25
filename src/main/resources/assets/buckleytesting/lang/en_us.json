@@ -18,6 +18,7 @@
   "item.buckleytesting.horserite_hoe": "Horserite Hoe",
   "item.buckleytesting.horserite_paxel": "Horserite Paxel",
   "item.buckleytesting.horserite_hammer": "Horserite Hammer",
+  "item.buckleytesting.horserite_horse_armor": "Horserite Horse Armor",
 
   "block.buckleytesting.horse_crepe": "Horse Crepe Layer",
   "block.buckleytesting.horserite_block": "Block of Horserite",
@@ -32,6 +33,7 @@
   "block.buckleytesting.sound_block": "Sound Block",
   "block.buckleytesting.hay_rack_black": "Black Hay Rack",
 
+  "enchantment.buckleytesting.birth_a_bertha": "Birth-A-Bertha",
   "creativetab.main_tab": "Buckley Testing",
   "item.buckleytesting.metal_detector.no_valuables": "No Horserite Found!",
 

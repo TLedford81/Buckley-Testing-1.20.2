@@ -2,6 +2,7 @@ package net.kitnox.buckleytesting;
 
 import com.mojang.logging.LogUtils;
 import net.kitnox.buckleytesting.block.ModBlocks;
+import net.kitnox.buckleytesting.enchantment.ModEnchantments;
 import net.kitnox.buckleytesting.entity.MobEntities;
 import net.kitnox.buckleytesting.entity.client.BigBerthaRenderer;
 import net.kitnox.buckleytesting.entity.client.PillagerKingRenderer;
@@ -38,6 +39,7 @@ public class BuckleyTestingMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         MobEntities.register(modEventBus);
+        ModEnchantments.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

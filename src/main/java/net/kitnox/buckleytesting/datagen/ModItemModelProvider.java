@@ -28,6 +28,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.HORSE_HAIR);
         simpleItem(ModItems.LACED_CARROT);
         simpleItem(ModItems.METAL_DETECTOR);
+        simpleItem(ModItems.HORSERITE_HORSE_ARMOR);
 
         handheldItem(ModItems.KETAMINE_SWORD);
         handheldItem(ModItems.HORSERITE_SWORD);
